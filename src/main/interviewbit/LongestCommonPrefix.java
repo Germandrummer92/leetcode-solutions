@@ -1,6 +1,8 @@
+package interviewbit;
+
 import java.util.*;
 
-public class Solution {
+public class LongestCommonPrefix {
 	public String longestCommonPrefix(ArrayList<String> a) {
 	        String curLongest = "";
 	        String curString = a.get(0);
